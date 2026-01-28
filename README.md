@@ -14,17 +14,6 @@ The proposed approach:
 - Avoids aggressive feature aggregation
 - Achieves up to **95% F1-score** on real-world telematics data
 
-## Repository Structure
-- `src/quadtree/` – Quad-tree construction and binary encoding
-- `src/models/` – CNN architecture and training pipeline
-- `src/preprocessing/` – GPS processing and segmentation
-- `data/synthetic/` – Example data (no real participant data)
-- `experiments/` – Reproducible experiment scripts
-
 ## Data Availability
 Due to privacy and IRB restrictions, real GPS and telematics data used in the study cannot be shared.  
 This repository includes **synthetic examples** to demonstrate the full pipeline.
-
-## Requirements
-```bash
-pip install -r requirements.txt
